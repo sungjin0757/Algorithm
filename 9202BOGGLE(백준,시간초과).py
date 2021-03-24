@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("input.txt","rt")
+#sys.stdin=open("input.txt","rt")
 
 w=int(input())
 word_temp=[sys.stdin.readline().strip() for _ in range(w)]
